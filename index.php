@@ -16,13 +16,13 @@
 
 		<ul class="js-layers nested-list list-reset">
 			<li droppable id="1">
-				<label for="layer-state-1">Layer 1</label>
 				<input type="checkbox" id="layer-state-1" checked/>
+				<label for="layer-state-1">Layer 1</label>
 
 				<ul class="nested-list list-reset">
-					<li droppable id="1-1">
-						<label for="layer-state-2">Layer 2</label>
+					<li draggable="true" droppable id="1-1">
 						<input type="checkbox" id="layer-state-2" checked/>
+						<label for="layer-state-2">Layer 2</label>
 
 						<ul class="nested-list list-reset">
 							<li draggable="true" droppable id="1-1-1">Element 1</li>
@@ -33,8 +33,8 @@
 					</li>
 
 					<li droppable id="1-2">
-						<label for="layer-state-3">Layer 3</label>
 						<input type="checkbox" id="layer-state-3" checked/>
+						<label for="layer-state-3">Layer 3</label>
 
 						<ul class="nested-list list-reset">
 							<li draggable="true" droppable id="1-2-5">Element 5</li>

@@ -121,8 +121,8 @@ function createNestedList(element) {
   nestedList.className = "nested-list list-reset";
 
   element.innerHTML = "";
-  element.appendChild(label);
   element.appendChild(input);
+  element.appendChild(label);
   element.appendChild(nestedList);
 
   return nestedList;
