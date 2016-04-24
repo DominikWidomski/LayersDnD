@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+}
+
+.list-reset {
+  list-style-type: none;
+  margin: 0;
+}
+
+.log {
+  overflow-y: scroll;
+  width: 100%;
+  height: 200px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #FFF;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+@-webkit-keyframes blink {
+  0% {
+    background: red;
+  }
+  100% {
+    background: white;
+  }
+}
+
+@keyframes blink {
+  0% {
+    background: red;
+  }
+  100% {
+    background: white;
+  }
+}
+.log-l {
+  -webkit-animation-name: blink;
+          animation-name: blink;
+  -webkit-animation-duration: .1s;
+          animation-duration: .1s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+article {
+  margin: 0 auto;
+  width: 80%;
+  padding: 15px;
+  background: #ccc;
+}
+
+header {
+  margin-bottom: 10px;
+}
+
+ul {
+  padding-left: 10px;
+  padding: 10px;
+  border-radius: 3px;
+  border: 1px solid #eee;
+}
+
+label {
+  display: inline-block;
+  margin-bottom: 5px;
+}
+
+input[type=checkbox] + ul {
+  display: none;
+}
+
+input[type=checkbox]:checked + ul {
+  display: block;
+}

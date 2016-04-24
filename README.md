@@ -1,2 +1,4 @@
-# LayersDnD
-Simple Component for nested layers structure like interaction.
+# Layers Drag'n'Drop
+Simple Component for nested-layers-like structure interaction.
+
+## WIP
